@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falc.Email.Api", "src\Falc.Email.Api\Falc.Email.Api.csproj", "{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{AA77BE54-AB84-40DF-8AA0-CB8B1898B940}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+						{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47} = {BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}
+	EndGlobalSection
+EndGlobal
