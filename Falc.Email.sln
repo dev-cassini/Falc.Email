@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionF
 		global.json = global.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falc.Email.Domain", "src\Falc.Email.Domain\Falc.Email.Domain.csproj", "{9526086E-C0F4-4B10-B517-F9CB87A414DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,13 @@ Global
 		{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9526086E-C0F4-4B10-B517-F9CB87A414DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9526086E-C0F4-4B10-B517-F9CB87A414DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9526086E-C0F4-4B10-B517-F9CB87A414DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9526086E-C0F4-4B10-B517-F9CB87A414DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 						{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47} = {BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}
+		{9526086E-C0F4-4B10-B517-F9CB87A414DD} = {BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}
 	EndGlobalSection
 EndGlobal
