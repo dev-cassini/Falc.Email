@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falc.Email.Domain", "src\Falc.Email.Domain\Falc.Email.Domain.csproj", "{9526086E-C0F4-4B10-B517-F9CB87A414DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falc.Email.Infrastructure", "src\Falc.Email.Infrastructure\Falc.Email.Infrastructure.csproj", "{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +29,14 @@ Global
 		{9526086E-C0F4-4B10-B517-F9CB87A414DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9526086E-C0F4-4B10-B517-F9CB87A414DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9526086E-C0F4-4B10-B517-F9CB87A414DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 						{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47} = {BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}
 		{9526086E-C0F4-4B10-B517-F9CB87A414DD} = {BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}
+		{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA} = {BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}
 	EndGlobalSection
 EndGlobal
