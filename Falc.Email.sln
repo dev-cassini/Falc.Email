@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falc.Email.Domain", "src\Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falc.Email.Infrastructure", "src\Falc.Email.Infrastructure\Falc.Email.Infrastructure.csproj", "{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falc.Email.Application", "src\Falc.Email.Application\Falc.Email.Application.csproj", "{1F3FBBAA-8BB8-48E1-A557-A5A7F4CA941E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,10 +35,15 @@ Global
 		{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F3FBBAA-8BB8-48E1-A557-A5A7F4CA941E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3FBBAA-8BB8-48E1-A557-A5A7F4CA941E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3FBBAA-8BB8-48E1-A557-A5A7F4CA941E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3FBBAA-8BB8-48E1-A557-A5A7F4CA941E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 						{B23E7DA5-3448-4CB6-8CF3-9C18ACA91F47} = {BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}
 		{9526086E-C0F4-4B10-B517-F9CB87A414DD} = {BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}
 		{F9F40D26-468B-4179-A0DF-8D7C9AFB01AA} = {BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}
+		{1F3FBBAA-8BB8-48E1-A557-A5A7F4CA941E} = {BAD92181-FC17-4C34-AEBF-21CFCA94BA3A}
 	EndGlobalSection
 EndGlobal
