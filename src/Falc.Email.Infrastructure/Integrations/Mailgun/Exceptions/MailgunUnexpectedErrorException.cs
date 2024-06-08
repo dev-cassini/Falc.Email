@@ -4,4 +4,4 @@ public class MailgunUnexpectedErrorException(HttpResponseMessage httpResponseMes
     : Exception(
         string.Format("Request sent tp Mailgun unexpectedly failed: RequestUrl={0}, ResponseMessage={1}.", 
             httpResponseMessage.RequestMessage?.RequestUri,
-            await httpResponseMessage.Content.ReadAsStringAsync()));
+            httpResponseMessage.Content.ReadAsStringAsync().GetAwaiter().GetResult()));

@@ -4,4 +4,4 @@ public class MailgunUnauthorisedRequestException(HttpResponseMessage httpRespons
     : Exception(
         string.Format("Request sent to Mailgun was rejected as unauthorised: RequestUrl={0}, ResponseMessage={1}.", 
             httpResponseMessage.RequestMessage?.RequestUri,
-            await httpResponseMessage.Content.ReadAsStringAsync()));
+            httpResponseMessage.Content.ReadAsStringAsync().GetAwaiter().GetResult()));
