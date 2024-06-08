@@ -1,4 +1,5 @@
 using Falc.CleanArchitecture.Infrastructure;
+using Falc.CleanArchitecture.Infrastructure.Persistence.EntityFramework;
 using Falc.Email.Infrastructure.Persistence.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,7 +27,8 @@ builder.Services
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.Services.MigrateDatabase<EmailDbContext>();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
